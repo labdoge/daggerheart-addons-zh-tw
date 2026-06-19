@@ -1,3 +1,5 @@
+import "./kichwas-ui-refinement-compat.mjs";
+
 const MODULE_ID = "daggerheart-addons-zh-tw";
 
 const SUPPORTED_ADDONS = Object.freeze([

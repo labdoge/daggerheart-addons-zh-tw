@@ -1,1 +1,33 @@
-{}
+{
+  "DHKUIR": {
+    "Settings": {
+      "moveSpellcastingTrait": {
+        "Name": "移動施法特質顯示",
+        "Hint": "啟用後，角色表會將施法特質顯示移到角色詳細資訊區。"
+      },
+      "lockFearTacker": {
+        "Name": "鎖定恐懼追蹤器",
+        "Hint": "啟用後，恐懼追蹤器會固定在畫面上，避免被拖曳或移動。"
+      },
+      "PositionHorizontalFearTacker": {
+        "Name": "恐懼追蹤器水平位置",
+        "Hint": "調整恐懼追蹤器在畫面上的水平位置。"
+      },
+      "PositionVerticalFearTacker": {
+        "Name": "恐懼追蹤器垂直位置",
+        "Hint": "調整恐懼追蹤器在畫面上的垂直位置。"
+      },
+      "FearTackerFontSize": {
+        "Name": "恐懼追蹤器文字大小",
+        "Hint": "調整恐懼追蹤器的文字大小。"
+      },
+      "cheatDieRolls": {
+        "Name": "啟用 GM 骰值覆寫",
+        "Hint": "啟用後，GM 可在雙相擲骰對話框中指定希望骰或恐懼骰的結果。"
+      }
+    },
+    "Reroll": {
+      "ToggleDieOverride": "切換 {die}骰值覆寫"
+    }
+  }
+}

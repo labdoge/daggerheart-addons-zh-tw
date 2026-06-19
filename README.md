@@ -6,17 +6,17 @@ Unofficial companion localization module for Daggerheart-related Foundry VTT add
 
 ## Current Status
 
-Current release: `v0.2.0`
+Current release: `v0.3.0`
 
 Included production overlays:
 
 - `daggerheart-compact-sheets` `1.5.2`: upstream `DHCS.*` keys
 - `daggerheart-distances` `0.2.5`: upstream `DHD.*` keys
+- `daggerheart-kichwas-ui-refinement` `1.3.0`: companion `DHKUIR.*` settings plus a version-gated runtime compatibility patch
 
 Tracked but not yet translated through this module:
 
 - `daggerheart-advmanager`
-- `daggerheart-kichwas-ui-refinement`
 - `daggerheart-quickactions`
 - `daggerheart-quickrules`
 - `daggerheart-store`
@@ -101,4 +101,4 @@ npm run build
 - Do not modify upstream add-on folders under `D:\FVTT\Data\modules`.
 - Do not commit `.tmp/`, `dist/`, zip files, or generated audit artifacts.
 - Do not commit generated audit artifacts containing upstream English source text.
-- Prefer upstream i18n PRs/issues for hardcoded UI. Runtime patches should be small, documented, and version-aware.
+- Prefer upstream i18n PRs/issues for hardcoded UI unless a pure companion path is explicitly chosen. Runtime patches should be small, documented, and version-aware.

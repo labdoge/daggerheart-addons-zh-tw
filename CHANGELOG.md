@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 - 2026-06-19
+
+- Added `DHKUIR.*` Traditional Chinese strings for `daggerheart-kichwas-ui-refinement` settings.
+- Added a version-gated companion runtime patch for `daggerheart-kichwas-ui-refinement` `1.3.0`.
+- Localized Kichwas hardcoded settings through `game.settings.settings` without modifying upstream files.
+- Added a small GM dice override compatibility shim that detects Hope/Fear dice by Daggerheart form fields instead of visible English labels.
+- Kept core Hope/Fear terminology delegated to `daggerheart-zh-tw`.
+
 ## 0.2.0 - 2026-06-19
 
 - Added the first production `zh-TW` overlays for `daggerheart-distances` (`DHD.*`) and `daggerheart-compact-sheets` (`DHCS.*`).
