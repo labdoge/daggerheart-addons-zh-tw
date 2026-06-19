@@ -1,0 +1,19 @@
+{
+  "DAGGERHEART_ADDONS_ZH_TW": {
+    "Title": "匕首心附加模組繁體中文化",
+    "Description": "匕首心附加模組的繁體中文 companion localization module。",
+    "Status": {
+      "Initialized": "模組骨架已初始化，等待逐一盤點附加模組。",
+      "NeedsAudit": "此附加模組尚未完成中文化盤點。"
+    },
+    "Addon": {
+      "daggerheart-advmanager": "Daggerheart: Adversary Manager",
+      "daggerheart-compact-sheets": "Daggerheart: Compact Sheets",
+      "daggerheart-distances": "Daggerheart: Distances",
+      "daggerheart-kichwas-ui-refinement": "Daggerheart: Kichwas' UI Refinement",
+      "daggerheart-quickactions": "Daggerheart: Quick Actions",
+      "daggerheart-quickrules": "Daggerheart: Quick Rules",
+      "daggerheart-store": "Daggerheart: Store"
+    }
+  }
+}

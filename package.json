@@ -1,0 +1,14 @@
+{
+  "name": "daggerheart-addons-zh-tw",
+  "version": "0.1.0",
+  "private": false,
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "merge:locale": "node scripts/merge-locale.mjs",
+    "validate": "node scripts/validate-locale.mjs",
+    "audit:addons": "node scripts/audit-installed-addons.mjs",
+    "build:dist": "node scripts/build-module.mjs",
+    "build": "node scripts/build-module.mjs --install"
+  }
+}

@@ -1,0 +1,45 @@
+name: Release Foundry Module
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate
+        run: npm run validate
+
+      - name: Build dist
+        run: npm run build:dist
+
+      - name: Package module zip
+        shell: pwsh
+        run: |
+          Compress-Archive -Path "dist/daggerheart-addons-zh-tw/*" -DestinationPath "daggerheart-addons-zh-tw.zip" -Force
+          Copy-Item -LiteralPath "dist/daggerheart-addons-zh-tw/module.json" -Destination "module.json" -Force
+
+      - name: Publish release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            module.json
+            daggerheart-addons-zh-tw.zip

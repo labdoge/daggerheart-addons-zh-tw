@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.tmp/
+
+addon_inventory.generated.json
+addon_inventory.generated.md
+
+*.zip
+*.tgz
+*.log
+npm-debug.log*
+
+.DS_Store
+Thumbs.db
+
+.env
+.env.*
