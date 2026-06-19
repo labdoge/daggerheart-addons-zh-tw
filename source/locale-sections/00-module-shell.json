@@ -1,10 +1,10 @@
 {
   "DAGGERHEART_ADDONS_ZH_TW": {
-    "Title": "匕首心附加模組繁體中文化",
-    "Description": "匕首心附加模組的繁體中文 companion localization module。",
+    "Title": "匕首心附加模組繁體中文在地化",
+    "Description": "Daggerheart 相關 add-on 的繁體中文 companion localization module。",
     "Status": {
-      "Initialized": "模組骨架已初始化，等待逐一盤點附加模組。",
-      "NeedsAudit": "此附加模組尚未完成中文化盤點。"
+      "Initialized": "模組外殼已初始化，並已開始加入實際 add-on 翻譯。",
+      "NeedsAudit": "需要逐一稽核 add-on 的語言檔、設定、模板、注入 UI、chat cards 與 compendium 內容。"
     },
     "Addon": {
       "daggerheart-advmanager": "Daggerheart: Adversary Manager",

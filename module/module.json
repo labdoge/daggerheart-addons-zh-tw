@@ -1,14 +1,14 @@
 {
   "id": "daggerheart-addons-zh-tw",
-  "title": "匕首心附加模組繁體中文化",
-  "description": "Traditional Chinese companion localization scaffold for Daggerheart add-on modules.",
+  "title": "匕首心附加模組繁體中文在地化",
+  "description": "Traditional Chinese companion localization module for Daggerheart add-on modules.",
   "authors": [
     {
       "name": "labdoge",
       "url": "https://github.com/labdoge"
     }
   ],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "14.361",
     "verified": "14.363",
